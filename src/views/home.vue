@@ -2,39 +2,45 @@
   <div class="w-full min-h-screen bg-gray-100">
 
     <!-- HERO SECTION -->
-    <section
-      class="relative h-screen bg-cover bg-center flex items-center justify-center"
-      style="background-image: url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1600&auto=format&fit=crop');"
-    >
-      <!-- Overlay -->
-      <div class="absolute inset-0 bg-black/50"></div>
+<section
+  class="relative h-screen bg-cover bg-center"
+  style="background-image: url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1600&auto=format&fit=crop');"
+>
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
 
-      <!-- Content -->
-      <div class="relative z-10 text-white px-10 md:px-20 max-w-3xl">
-        <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
-          Welcome to Rwanda
-        </h1>
+  <!-- Content -->
+  <div class="absolute inset-0 flex items-center justify-center text-center z-10">
+    
+    <div class="text-white px-10 md:px-20 max-w-3xl">
+      
+      <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+        Welcome to Rwanda
+      </h1>
 
-        <p class="text-lg md:text-2xl mb-8 text-gray-200">
-          Discover the beauty of the Land of a Thousand Hills,
-          where culture, nature, cleanliness, peace, and innovation meet together.
-        </p>
+      <p class="text-lg md:text-2xl mb-8 text-gray-200">
+        Discover the beauty of the Land of a Thousand Hills,
+        where culture, nature, cleanliness, peace, and innovation meet together.
+      </p>
 
-        <div class="flex gap-5">
-          <button
-            class="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-3 rounded-lg transition duration-300"
-          >
-            Explore Rwanda
-          </button>
+      <div class="flex gap-5 justify-center">
+        <button
+          class="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-3 rounded-lg transition duration-300"
+        >
+          Explore Rwanda
+        </button>
 
-          <button
-            class="border border-white hover:bg-white hover:text-black px-8 py-3 rounded-lg transition duration-300"
-          >
-            Learn More
-          </button>
-        </div>
+        <button
+          class="border border-white hover:bg-white hover:text-black px-8 py-3 rounded-lg transition duration-300"
+        >
+          Learn More
+        </button>
       </div>
-    </section>
+
+    </div>
+
+  </div>
+</section>
 
     <!-- ABOUT RWANDA -->
     <section class="py-20 px-8 md:px-20 bg-white">
