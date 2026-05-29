@@ -2,7 +2,7 @@
   <nav class="bg-green-800 text-white flex justify-between py-4 px-3 items-center shadow-lg">
     
     <span class="text-xl font-bold flex gap-2">
-      <img src="../assets/GPB.png" alt="TR" class="w-10 h-10 rounded-full">
+      <img src="../assets/rwanda.png" alt="TR" class="w-10 h-10 rounded-full">
     </span>
 
     <ul class="flex gap-8 text-sm font-medium">
