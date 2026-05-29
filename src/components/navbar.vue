@@ -70,6 +70,12 @@
               Videos
             </RouterLink>
           </li>
+          
+
+
+
+
+          
         </ul>
       </li>
 
@@ -80,6 +86,62 @@
           Destination ▼
         </span>
 
+        <ul
+          class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute bg-white text-green-900 rounded shadow w-48 mt-2 z-50 transition-all duration-300"
+        >
+
+          <li>
+            <RouterLink
+              to="/northern"
+              class="block px-4 py-2 hover:bg-green-800 hover:text-white"
+            >
+              Northern Province
+            </RouterLink>
+          </li>
+
+          <li>
+            <RouterLink
+              to="/eastern"
+              class="block px-4 py-2 hover:bg-green-800 hover:text-white"
+            >
+              Eastern Province
+            </RouterLink>
+          </li>
+
+          <li>
+            <RouterLink
+              to="/kigali"
+              class="block px-4 py-2 hover:bg-green-800 hover:text-white"
+            >
+              Kigali City
+            </RouterLink>
+          </li>
+
+          <li>
+            <RouterLink
+              to="/western"
+              class="block px-4 py-2 hover:bg-green-800 hover:text-white"
+            >
+              Western Province
+            </RouterLink>
+          </li>
+
+          <li>
+            <RouterLink
+              to="/southern"
+              class="block px-4 py-2 hover:bg-green-800 hover:text-white"
+            >
+              Southern Province
+            </RouterLink>
+          </li>
+
+        </ul>
+
+
+
+
+
+    
         <ul
           class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute bg-white text-green-900 rounded shadow w-48 mt-2 z-50 transition-all duration-300"
         >

@@ -3,7 +3,7 @@
 
     <!-- HERO SECTION -->
     <section
-      class="relative h-screen bg-cover bg-center flex items-center"
+      class="relative h-screen bg-cover bg-center flex items-center justify-center"
       style="background-image: url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1600&auto=format&fit=crop');"
     >
       <!-- Overlay -->
